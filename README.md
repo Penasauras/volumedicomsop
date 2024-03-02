@@ -6,12 +6,13 @@ This operator allow to open DICOM data in Houdini and operate them as volumes.
 
 ## Instalation
 
-Run in terminal to install [pydicom](https://github.com/pydicom/pydicom) library.
+Copy the file, 'VolumeDicom.json', into your houdini packages directory.
 
-```sh
-# Hython from Houdini
- hython -m pip install pydicom
-```
+ - Example: "C:/Houdini/houdini20.0/packages"
+
+Open the .json file and change the VOLUMEDICOM path to match the download location of this repository.
+
+ - Example: "VOLUMEDICOM": "C:/Houdini/Repositories/volumedicomsop"
 
 ## Attributes
 
